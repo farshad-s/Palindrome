@@ -12,6 +12,15 @@ body {
   height: 400px;
 }
 
+.container p {
+  font-size: 18px;
+}
+
+.palindrome-example {
+  color: green;
+  font-weight: bold;
+}
+
 #palindrome-text-holder {
   height: 25px;
   width: 40%;
