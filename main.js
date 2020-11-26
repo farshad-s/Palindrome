@@ -11,6 +11,13 @@ function palindrome() {
       display.style.color = "red";
     }
   });
+
+  text.addEventListener("keyup", function (event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+      button.click();
+    }
+  });
 }
 
 palindrome();
